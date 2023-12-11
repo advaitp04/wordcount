@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 		else
 			atWord = 1;
 	}
-	if ((read(fd,&buf,1) == 0) & atWord) {
+	if ((read(fd,&buf,1) == 0)) {
 		numOfWords++;
 	}
 	
